@@ -17,12 +17,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        displayLabel.text = ""
     }
 
 
     @IBAction func setLabelButtonPressed(_ sender: Any)
     {
-        
+        displayLabel.text = textField.text
         
     }
     
